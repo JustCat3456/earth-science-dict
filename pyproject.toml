@@ -1,0 +1,16 @@
+[project]
+name = "earth-science-dict"
+version = "0.1.0"
+description = "全OS対応の地球科学（個体地球・大気海洋・宇宙）IMEユーザー辞書ジェネレーター"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
